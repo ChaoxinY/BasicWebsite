@@ -1,0 +1,31 @@
+body {
+    font-family: helvetica;
+}
+
+ul {
+    font-family: monospace;
+}
+
+li {
+    list-style: circle;
+}
+
+.list {
+    list-style: square;
+}
+
+#date {
+    font-size: 12px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+    border: 3px solid green;
+}
+
+.horizontalAligned {
+    display:inline-block;
+    vertical-align:middle;
+}
