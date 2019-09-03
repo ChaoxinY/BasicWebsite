@@ -2,7 +2,9 @@
 <html lang="en" dir="ltr">
 
 <head>
+    <!--Using UTF-8 for coverage on most character and readablity on websites-->
     <meta charset="UTF-8">
+    <meta name="basicWebsite">
     <title>Back To Html</title>
     <link rel="stylesheet" href="main.css">
 </head>
@@ -13,23 +15,50 @@
         <h1> Back To Html</h1>
         <p id="date"></p>
     </div>
+    <table cellspacing="20px">
+        <tr>
+            <td>
+              <img width="300px" height="300px" src="images/Profile.jpg" alt="Profile">
+            </td>
+            <td>
+                <h1>Chaoxin Yang</h1>
+                    <!--use emphasis tags to convey meaning-->
+                <p><em>Developer</em></p>
+            </td>
+        </tr>
+
+    </table>
+
     <!--Container Block-->
     <div class="center">
         <!--Acutal content-->
-        <div class = "horizontalAligned">
-            <button onclick="setDate()">ClickMe!</button>
-        </div>
-        <div class = "horizontalAligned">
-            <ul>
-                <li class="list"> Edit the head </li>
-                <li class="list"> Edit the body</li>
-                <li> Link to JavaScript</li>
+        <div class="horizontalAligned">
+            <ul>              
+                <!-- <li><button onclick="setDate()">ClickMe!</button></li> -->
+                <!-- <li class="list"> Edit the head</li> -->
+                <a href="hobbies.html">Hobbies</a>
+                <a href="contact.html">Contact</a>
+                <h3>Work experience</h3>
+                <table border="1px">
+                    <th>
+                        <tr>
+                            <th>Dates</th>
+                            <th>Work</th>
+                        </tr>
+                    </th>
+                    <tbody>
+                        <tr>
+                            <td>2019-2019</td>
+                            <td>Game developer intern</td>
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
             </ul>
         </div>
     </div>
-
     <script src="app.js"></script>
-    <script></script> 
+    <script></script>
 </body>
 
 </html>

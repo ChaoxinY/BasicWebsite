@@ -2,7 +2,6 @@
 
 var display = false;
 
-
 // Apply today string to the selected element
 function setDate() {
     display = !display
